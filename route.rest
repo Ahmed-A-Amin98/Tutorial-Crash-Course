@@ -1,0 +1,31 @@
+GET http://localhost:3000/subscribers
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+  
+{
+    "name": "John Doe",
+    "email": "ahmedabdelhamid106@gmail.com",
+    "subscriberToChannel": "channel1"
+}
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+  
+{
+    "name": "John Doe",
+    "email": "ahmedabdelhamid106@gmail.com",
+    "subscriberToChannel": "channel1"
+}
+###
+GET http://localhost:3000/subscribers
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+  
+{
+    "name": "John Doe",
+    "email": "ahmedabdelhamid106@gmail.com",
+    "subscriberToChannel": "channel1"
+}
